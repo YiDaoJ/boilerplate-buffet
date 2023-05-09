@@ -1,0 +1,32 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.25rem;
+
+  &.button {
+    &--primary {
+        background: #6d5dfc;
+        color: #e4ebf5e6;
+    }
+
+    &--secondary {
+        color: #5e5c64e6;
+    }
+
+    &--warning {
+        background: #ffca2ce6;
+        color: #5e5c64e6;
+    }
+
+    &--danger {
+        background: #dc3545e6;
+        color: #e4ebf5e6;
+    }
+  }
+}
