@@ -18,10 +18,10 @@ type ColorType = 'primary' | 'secondary' | 'warning' | 'danger';
 
 interface ButtonProps {
   color: ColorType;
-  onClick(): void;
+  onClick?(): void;
 }
 
-export default function Button({ children, color, onClick }: ButtonProps) {
+export function Button({ children, color, onClick }: ButtonProps) {
   return (
     <button
       className={clsx([

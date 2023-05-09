@@ -1,4 +1,4 @@
-import Button from '@/components/button';
+import { Button } from '@/components';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
