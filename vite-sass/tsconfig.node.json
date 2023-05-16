@@ -2,8 +2,9 @@
   "compilerOptions": {
     "composite": true,
     "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "CommonJS",
+    // integrate vite-express, change module to commonjs. Ref: https://github.com/szymmis/vite-express#fresh-setup-with-create-vite
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts"]
